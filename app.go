@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	r.connect(os.Getenv("RETHINKDB_HOST"))
+	// r.connect(os.Getenv("RETHINKDB_HOST"))
 	http.HandleFunc("/", hello)
 	fmt.Println("listening...")
 	err := http.ListenAndServe(":"+os.Getenv("PORT"), nil)
