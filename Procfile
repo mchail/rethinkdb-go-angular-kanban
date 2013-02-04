@@ -1,1 +1,1 @@
-web: app
+web: rething-go-angular-kanban
