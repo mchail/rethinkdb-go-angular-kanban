@@ -1,1 +1,1 @@
-web: rething-go-angular-kanban
+web: rethink-go-angular-kanban
